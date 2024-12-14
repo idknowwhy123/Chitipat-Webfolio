@@ -281,23 +281,23 @@ section {
 }
 
 .contact-icon:hover {
-  transform: scale(1.1); /* Slight zoom-in effect */
+  transform: scale(1.1);
 }
 
 .contact-icon.phone:hover {
-  color: #28a745; /* Phone color (green) */
+  color: #28a745;
 }
 
 .contact-icon.email:hover {
-  color: #f39c12; /* Email color (yellow/orange) */
+  color: #f39c12; 
 }
 
 .contact-icon.github:hover {
-  color: #24292f; /* GitHub color (dark gray) */
+  color: #24292f; 
 }
 
 .contact-icon.instagram:hover {
-  color: #e4405f; /* Instagram color */
+  color: #e4405f;
 }
 
 .contact-txt {
@@ -305,7 +305,7 @@ section {
   font-size: 24px;
 
 }
-/**/
+/*End of contact sec*/
 
 footer {
     text-align: center;
