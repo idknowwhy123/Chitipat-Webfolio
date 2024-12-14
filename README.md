@@ -17,7 +17,7 @@ Welcome to the repository for **My Webfolio**! This is a personal portfolio webs
 ## Deployment
 
 This portfolio is deployed using **GitHub Pages** and is accessible at:
-[https://your-username.github.io/my-little-portfolio/](https://your-username.github.io/my-little-portfolio/)
+[https://idknowwhy123.github.io/Chitipat-Webfolio/](https://idknowwhy123.github.io/Chitipat-Webfolio/)
 
 ---
 
