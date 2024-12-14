@@ -1,0 +1,453 @@
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+
+    color: #3e67c8;
+    text-align: center;
+    padding: 1em 0;
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px -50px;
+    
+}
+
+h1 {
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+nav {
+
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  background: #fcc4bc;
+  padding: 0.5em;
+  outline: 1px solid black;
+    
+}
+
+nav a {
+
+  margin: 0 1em;
+  text-decoration: none;
+  color: #3e67c8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+section {
+
+  padding: 2em;
+  text-align: left;
+
+}
+/*about section*/
+
+#about {
+
+  background-color: #faefe3;
+
+}
+
+.about-img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.container {
+
+  display: flex; 
+  width: 100%;
+
+}
+
+.left-side, .right-side {
+
+  flex: 1;
+  padding: 20px;
+  
+}
+
+.left-side-head, .right-side-head {
+
+    text-align: center;
+    color: #333;
+    animation: fadeIn 2s ease-out;
+    
+}
+
+.left-side-txt, .right-side-txt {
+    
+  text-align: center;
+  color: #333;
+  border: 2px solid #000;
+  border-radius: 20px;
+  animation: fadeIn 2s ease-out;
+
+}
+
+/*end of about sec*/
+
+/*skill sec*/
+
+#skills {
+
+  text-align: center;
+  padding: 50px;
+  background-color: #d4f9f4;
+
+}
+
+#skills h2 , h3 {
+
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+#skills p {
+
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card img {
+  width: 150px;
+  height: 100px;
+  
+}
+
+.skill-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  font-size: 0.9rem;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*end of skills sec*/
+
+/*GitHub Project sec*/
+
+#projects {
+
+  padding: 50px;
+  background-color: #faefe3;
+
+}
+
+#repositories h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.repo-grid {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+}
+
+.repo-card {
+
+  background-color: #1e1e1e;
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  
+
+}
+
+.repo-card h3 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.repo-card a {
+  text-align: center;
+  color: #ffffff;
+}
+
+.repo-button{
+
+  text-decoration: none;
+
+}
+
+.repo-button:hover .repo-card {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.repo-card p {
+  margin: 0px 20px;
+  color: #b3b3b3; 
+  
+}
+
+.repo-card .badge {
+  display: inline-block;
+  background-color: #292929;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 12px;
+  padding: 10px 10px;
+  margin: 20px 20px;
+}
+
+/*end of git project sec*/
+
+/*Contact Sec*/
+
+#contact {
+
+  text-align: center;
+  background-color: #dcebf8;
+
+}
+
+#contact h2 {
+
+  color: #333333;
+
+}
+
+.contact-info {
+  display: flex;
+  gap:40px;
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 20px;
+  color: #555;
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1); /* Slight zoom-in effect */
+}
+
+.contact-icon.phone:hover {
+  color: #28a745; /* Phone color (green) */
+}
+
+.contact-icon.email:hover {
+  color: #f39c12; /* Email color (yellow/orange) */
+}
+
+.contact-icon.github:hover {
+  color: #24292f; /* GitHub color (dark gray) */
+}
+
+.contact-icon.instagram:hover {
+  color: #e4405f; /* Instagram color */
+}
+
+.contact-txt {
+
+  font-size: 24px;
+
+}
+/**/
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #f4f4f4;
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+/*animation*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/*end of animation*/
+
+
+/*font*/
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+/*end of fonts*/  

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chitipat-Webfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Webfolio</h1>
+    </header>
+
+    <nav>
+        <html>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>  
+        </html>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <div class="left-side">
+                <h2><br></h2>
+                <div class="left-side-head">
+                    <h2>About Me</h2>
+                </div>
+                <div class="left-side-txt" align = "center">
+                    <h3>Hello! My name is Chitipat Puthong. </h3>
+                    <p>I'm student at CEDT Faculty of Engineering Chulalongkorn University.<br> I'm passionate about learning in the technology field,<br>
+                       And I aim to improve my skills to be Full-Stack Developers.
+                    </p>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="images/person.png" class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <p>Here are some of the skills I have developed over time:</p>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="images/C++-Logo.wine.png" alt="C++ Icon">
+                <h3>C++</h3>
+                <p>With my hands-on experience in C++.<br>I adhere to best practices in coding,<br>optimization, and problem-solving.</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/Python-Logo.wine.png" alt="Python Icon">
+                <h3>Python</h3>
+                <p>I have been learning Python to developing Artificial Intelligence applications. Python's versatility libraries provide an excellent foundation for the AI domain.</p>
+            </div>
+            <div class="skill-card">
+                <img src="images/html-logo.png" alt="HTML Icon">
+                <h3>HTML, CSS and JavaScript</h3>
+                <p>I have recently started learning HTML, CSS, and JavaScript by working on this website, and I am ambitious to deepen my expertise and grow as a skilled developer in these technologies.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2 align = "center">My GitHub Projects</h2>
+        <div class="repo-grid " id="repo-grid"></div>
+    </section>
+    <script src="js/projects.js"></script>
+    
+    <section id="contact">
+        <h2 class="poppins-bold">Contact me</h2>
+
+        <div class="contact-info">
+
+            <a href="tel:+1234567890" class="contact-icon phone">
+                <i class="fas fa-phone"></i>
+                <span class="poppins-regular contact-txt">084-294-5259</span>
+            </a>
+            
+            <a href="mailto:6733050721@student.chula.ac.th" class="contact-icon email">
+                <i class="fas fa-envelope"></i>
+                <span class="poppins-regular contact-txt">6733050721@student.chula.ac.th</span>
+            </a>
+            <a href="https://github.com/idknowwhy123" target="_blank" class="contact-icon github">
+                <i class="fab fa-github"></i>
+                <span class="poppins-regular contact-txt">idknowwhy123</span>
+            </a>
+            <a href="https://www.instagram.com/_xchi_/" target="_blank" class="contact-icon instagram">
+                <i class="fab fa-instagram"></i>
+                <span class="poppins-regular contact-txt">_xchi_</span>
+            </a>
+        </div>
+        
+
+    </section>
+
+    <footer>
+        <p>© 2024 Chitipat Puthong</p>
+    </footer>
+
+</body>
+</html>
