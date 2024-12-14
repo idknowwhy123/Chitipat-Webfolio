@@ -1,4 +1,3 @@
-﻿# Chitipat-Webfolio
 # Chitipat-Webfolio
 
 Welcome to the repository for **My Webfolio**! This is a personal portfolio website designed to showcase my skills, projects, and accomplishments. The website is built with simplicity and creativity in mind, offering visitors a quick glimpse into who I am and what I do.
