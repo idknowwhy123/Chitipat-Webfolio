@@ -4,7 +4,7 @@ const repoGrid = document.getElementById("repo-grid");
 fetch(`https://api.github.com/users/${username}/repos`)
     .then((response) => response.json())
     .then((data) => {
-        data.slice(0, 4).forEach((repo) => {
+        data.slice(0, 6).forEach((repo) => {
             const repoLink = document.createElement("a");
             repoLink.href = repo.html_url;
             repoLink.target = "_blank";

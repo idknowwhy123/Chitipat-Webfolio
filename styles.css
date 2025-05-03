@@ -49,6 +49,14 @@ nav a {
 
 }
 
+nav a:hover {
+
+  color: #33539f;
+  scale: 110%;
+  transition: 0.5s;
+
+}
+
 section {
 
   padding: 2em;
